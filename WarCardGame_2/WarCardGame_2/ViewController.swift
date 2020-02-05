@@ -22,12 +22,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
     }
-
+     
+   
 
     @IBAction func dealTapped(_ sender: Any) {
-    
-        print("Deal Tapped!")
+        
+        let leftNumber = Int.random(in: 2...14)
+        //print(leftNumber)
+        
+        let rightNumber = Int.random(in: 2...14)
+        //print(rightNumber)
+        
+        leftImageView.image = UIImage(named: "card\(leftNumber)")
+        rightImageView.image = UIImage(named: "card\(rightNumber) ")
     }
     
     
