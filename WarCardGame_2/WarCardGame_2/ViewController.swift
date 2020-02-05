@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         //print(rightNumber)
         
         leftImageView.image = UIImage(named: "card\(leftNumber)")
-        rightImageView.image = UIImage(named: "card\(rightNumber) ")
+        rightImageView.image = UIImage(named: "card\(rightNumber)")
     }
     
     
